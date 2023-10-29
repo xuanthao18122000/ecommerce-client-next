@@ -99,8 +99,8 @@ const LoginScreen = () => {
 					pauseOnHover
 					theme="light"
 				/>
-				<div className="page-wrapper container row mt-5 pt-5 mx-0">
-					<div className="banner col container">
+				<div className="page-wrapper container row mx-0">
+					<div className="banner col-lg-6 col-12 container">
 						<h1 className="banner__title">Data verification</h1>
 						<p className="banner__description mb-0">
 							All document are provide and upload file and data are send to
@@ -108,7 +108,7 @@ const LoginScreen = () => {
 						</p>
 						<img src="https://media.istockphoto.com/id/1281150061/vector/register-account-submit-access-login-password-username-internet-online-website-concept.jpg?s=612x612&w=0&k=20&c=9HWSuA9IaU4o-CK6fALBS5eaO1ubnsM08EOYwgbwGBo="/>
 					</div>
-					<div className="login-form col container">
+					<div className="login-form col-lg-6 col-12 container">
 						<div className="login-form-title">
 							<h1 className="login-form-title__text">Login to Website</h1>
 							<p className="login-form-title__description mb-5">
