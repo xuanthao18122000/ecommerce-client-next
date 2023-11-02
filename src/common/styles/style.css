@@ -68,6 +68,9 @@ Table of Content:
 /*======================================================================
   2. Basic Styles
 ========================================================================*/
+.container {
+  max-width: 1600px !important;
+}
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 *, ::before, ::after { box-sizing:border-box; -webkit-box-sizing:border-box; }
 html { overflow:hidden; overflow-y:auto; }
@@ -992,7 +995,7 @@ table { margin-bottom:15px; width:100%; border-collapse:collapse; border-spacing
 .page-template .addressFooter { font-size:14px; list-style:none; }
 .page-template #page-content .addressFooter .icon { color:#000 !important; font-size:18px; }
 .page-template .addressFooter li p { padding-left:30px; }
-#page-content { margin-top: 68px}
+#page-content { margin-top: 70px}
 
 .contact-template .section-header { margin-bottom:0; }
 .contact-template .map-section { margin-bottom:0; overflow:hidden; height:350px; }

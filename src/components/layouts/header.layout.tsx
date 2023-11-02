@@ -1,4 +1,3 @@
-import React from "react";
 import '@/common/styles/style.css';
 import Link from "next/link";
 
@@ -62,12 +61,12 @@ const HeaderScreen = () => {
 								<ul id="siteNav" className="site-nav medium center hidearrow">
 									<li className="lvl1 parent megamenu">
 										<a href="/" className="text-white fw-normal">
-											Home <i className="anm anm-angle-down-l"></i>
+											Trang chủ <i className="anm anm-angle-down-l"></i>
 										</a>
 									</li>
 									<li className="lvl1 parent dropdown">
 										<a href="#" className="text-white fw-normal">
-											Product <i className="anm anm-angle-down-l"></i>
+											Sản phẩm <i className="anm anm-angle-down-l"></i>
 										</a>
 										<ul className="dropdown">
 											<li>
@@ -111,22 +110,22 @@ const HeaderScreen = () => {
 										</ul>
 									</li>
 									<li className="lvl1 parent dropdown">
-										<a href="/blog" className="text-white fw-normal">
-											Blog <i className="anm anm-angle-down-l"></i>
+										<a href="/collection" className="text-white fw-normal">
+											Bộ sưu tập <i className="anm anm-angle-down-l"></i>
 										</a>
 									</li>
 									<li className="lvl1">
 										<a href="/about" className="text-white fw-normal">
-											About Us <i className="anm anm-angle-down-l"></i>
+											Về chúng tôi <i className="anm anm-angle-down-l"></i>
 										</a>
 									</li>
 									<li className="lvl1">
 										<a href="/contact" className="text-white fw-normal">
-											Contact us <i className="anm anm-angle-down-l"></i>
+											Liên hệ <i className="anm anm-angle-down-l"></i>
 										</a>
 									</li>
 									<li className="lvl1 parent megamenu">
-										<a href="/faqs">
+										<a href="/faqs" className="text-white">
 											FAQs <i className="anm anm-angle-down-l"></i>
 										</a>
 									</li>

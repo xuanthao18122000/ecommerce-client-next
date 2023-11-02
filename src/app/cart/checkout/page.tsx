@@ -1,10 +1,7 @@
 "use client";
-import { loginApi } from "@/services/auth.service";
-import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ToastContainer, toast } from "react-toastify";
+import { useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
-import Link from "next/link";
 
 const LoginScreen = () => {
   const router = useRouter();
@@ -27,7 +24,7 @@ const LoginScreen = () => {
       </div>
 
       <div className="row">
-        <div className="col-lg-8 col-12 border rounded p-3">
+        <div className="col-lg-8 col-12 border rounded p-3 mb-3">
           <div className="mb-4">
             <p className="fs-4 fw-bolder">Thông tin nhận hàng</p>
             <div className="mb-2">
