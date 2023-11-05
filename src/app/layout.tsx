@@ -3,9 +3,12 @@ import FooterScreen from '@/components/layouts/footer.layout'
 import HeaderScreen from '@/components/layouts/header.layout'
 import 'bootstrap/dist/css/bootstrap.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Space_Grotesk } from "@next/font/google"
 
-const inter = Inter({ subsets: ['latin'] })
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['vietnamese'],
+  weight: '400'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -19,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={spaceGrotesk.className}>
         <HeaderScreen/>
         {children}
         {/* <FooterScreen/> */}

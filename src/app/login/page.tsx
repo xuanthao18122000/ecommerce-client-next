@@ -184,7 +184,7 @@ const LoginScreen = () => {
 								</div>
 							</div>
 						</div>
-						<div className="d-flex login-form__separator d-flex flex-row justify-content-between gap-2 align-item-center mb-4">
+						<div className="d-flex login-form__separator d-flex flex-row justify-content-between gap-2 align-items-center mb-4">
 							<hr className="login-form__separator-line w-50" />
 							<label className="login-form__separator-label text-secondary">
 								or

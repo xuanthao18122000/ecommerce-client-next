@@ -15,7 +15,7 @@ const LoginScreen = () => {
 
   return (
     <div id="page-content" className="container mt-5 pt-5">
-      <div className=" d-flex justify-content-between align-item-center mb-3">
+      <div className=" d-flex justify-content-between align-items-center mb-3">
         <label className="fs-2 fw-bold">ĐẶT HÀNG</label>
         <p>
           Bạn đã có tài khoản? <a href="" className="text-danger">Đăng nhập ngay</a>

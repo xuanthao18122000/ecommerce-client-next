@@ -5,7 +5,7 @@ export default function Home() {
     <div className="pt-5 mt-5 container">
       <div>
         <div className="mb-3">
-        <img src="https://pos.nvncdn.net/d0f3ca-7136/bn/20231017_xvFi8L33.png"/>
+        <img src="https://pos.nvncdn.net/d0f3ca-7136/bn/20231017_xvFi8L33.png" className="w-100"/>
         </div>
         <div className="text-center mb-3">
           <label className="fs-3 fw-bold">BẠN ĐANG TÌM KIẾM?</label>
